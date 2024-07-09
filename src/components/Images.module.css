@@ -1,0 +1,78 @@
+.images{
+    position: relative;
+    display: inline-block;
+   width: 48%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+}
+
+.images img{
+    width: 100%;
+    height:auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.other{
+    padding: 0.5rem;
+    text-align: left;
+    width: 100%;
+    background: rgba(249, 249, 248, 0.44);
+}
+
+.stars{
+    color: rgba(171, 142, 118, 1);
+    max-width: 60%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-content p{
+margin: 0;
+padding: 0.2rem;
+font-size: 1.2rem;
+}
+
+.icons {
+    font-size: 1.5rem;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    color: white;
+   
+  }
+
+  .icons div{
+    width: 20%;
+    padding: 1rem;
+  }
+
+  .icons:hover{
+
+  }
+
+  .images:hover .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+
+
+@media only screen and (min-width: 768px){
+    .images{
+        width: 23%;
+    }
+
+    .stars{
+        max-width: 30%;
+    }
+}

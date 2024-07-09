@@ -1,0 +1,5 @@
+.modal{
+    text-align: center;
+    z-index: 1000;
+    border-radius: 0.5rem;
+}

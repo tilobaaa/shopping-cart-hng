@@ -1,0 +1,102 @@
+.cart {
+  padding: 1rem 3rem 2rem;
+}
+.titleGand{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title h3 {
+  padding: 0 1rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-div button {
+  font-size: 1.25rem;
+  margin: 3rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  background-color: rgba(72, 60, 50, 1);
+  color: white;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.cart-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.summary {
+  display: none;
+  background-color: rgba(245, 244, 242, 1);
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+
+.summary h3 {
+  margin: 0;
+}
+
+.summary input {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  width: 70%;
+  border: 0.5px solid rgb(72, 60, 50, 1);
+}
+
+.summary input::placeholder {
+  color: rgba(72, 60, 50, 1);
+}
+
+.summary div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary button {
+  font-size: 1.25rem;
+  padding: 0.5rem 2rem;
+  background-color: rgba(72, 60, 50, 1);
+  color: white;
+  border-radius: 0.75rem;
+  border: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons img {
+  padding: 1rem;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .summary {
+    display: block;
+    width: 20vw;
+  }
+  .button-div button {
+    width: 30%;
+    padding: 1.5rem;
+  }
+
+  .title img{
+    display: none;
+  }
+}

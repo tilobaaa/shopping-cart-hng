@@ -1,0 +1,231 @@
+.home{
+    position: relative;
+    
+    
+}
+
+.home img{
+    width: 100%;
+    
+}
+
+.home-div{
+    text-align: center;
+    position: absolute;
+    top: 3rem;
+    color: white;
+}
+
+.home-div button{
+    font-size: 1rem;
+    padding:  1rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgba(72, 60, 50, 1);
+    
+}
+
+.main{
+    padding: 2rem 1rem;
+}
+
+.details h1{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+
+.details p{
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.details a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.image-div{
+    margin-top: 1rem;
+    width: 100%;
+    position: relative;
+    
+    text-align: center;
+}
+
+.image-div img{
+    width: 70%
+    
+}
+
+
+
+
+.img-group{
+   
+}
+
+.img-group div{
+   
+}
+.img-group p{
+    font-size: 1.2rem;
+}
+
+
+.main-guys{
+    padding: 2rem 1rem;
+    text-align: center;
+    
+}
+
+.img-group{
+    display: flex;
+}
+
+.img-group img{
+    padding: 0 0.5rem;
+}
+
+.footer{
+    padding: 1rem 1rem 3rem;
+    text-align: center;
+    width: 75%;
+    margin: auto auto 1rem;
+    background-color: rgba(84, 81, 77, 1);
+    background-image: url('./Images/Pattern.png');
+    border-radius: 1rem;
+    color: white;
+}
+
+.footer h4{
+    font-size: 1.5vw;
+}
+
+.footer p{
+    font-size: 1.2vw;
+}
+
+.footer input{
+    padding: 1rem;
+    border: none;
+}
+
+.footer button{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-left: -1rem;
+    color: white;
+    background-color: rgba(72, 60, 50, 1);
+}
+
+@media only screen and (min-width: 768px){
+    .home-div{
+        top: 25%;
+       left: 15%;
+    margin: auto;
+    }
+
+    .home-div h4{
+        font-size: 2.5rem;
+    }
+
+    .main{
+        text-align: center;
+    }
+
+    .home-div p{
+        font-size: 1.5rem;
+    }
+    
+    .img-group{
+        display: flex;
+        justify-content: space-around;
+    }
+    .img-group div{
+        width: 30%;
+        padding-right: 1rem;
+    }
+}
+
+
+@media only screen and (min-width: 998px){
+
+    .main{
+        padding: 2rem 1rem;
+    }
+    
+    .details h1{
+        font-size: 5vw;
+        font-weight: normal;
+        margin: 1rem 0;
+    }
+    
+    .details p{
+        margin: 0;
+        font-size: 2vw;
+        padding-bottom: 0.5rem;
+    }
+    
+    .details a{
+        text-decoration: none;
+        color: black;
+        font-size: 1vw;
+        
+    }
+    .home img{
+        height: 80vh;
+    }
+    .home-div{
+        top: 25%;
+       left: 25%;
+    margin: auto;
+    }
+
+    .everything-else{
+        margin: 0 7rem;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  3rem ;
+       
+    }
+
+    .details{
+      
+        text-align: left;
+    }
+    .details h1{
+        font-size: 4rem;
+    }
+
+    .image-div{
+        width: 50%;
+    }
+
+    .main-guys{
+        margin: 2rem 3rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer{
+        padding: 3rem;
+    }
+
+    .input-div button{
+        margin: 2rem 0;
+    }
+
+
+   
+}

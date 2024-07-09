@@ -1,0 +1,102 @@
+.cart-item-div{
+    width: 100%;
+}
+
+.cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.cart-item img{
+    width: 50%;
+    height: auto;
+}
+.cart-description {
+    padding: 0 1rem;
+}
+
+.cart-description h3{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.cart-description h2{
+    font-size: 1rem
+}
+
+
+
+.cart-description h3, .cart-description h2, .cart-description p{
+    margin: 0;
+    padding: 0;
+}
+
+.summary-cart {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  border: 1px solid rgba(229, 229, 229, 1);
+
+}
+
+
+.number-input input{
+    padding: 0;
+    width: 2rem;
+    text-align: center;
+    border:none;
+    font-size: 1rem;
+    
+}
+
+.number-input button{
+    width: auto;
+    border: none;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 0.25rem;
+    cursor: pointer;
+}
+
+.close{
+    margin-left: 1rem;
+    background-color: white;
+    border: none;
+}
+
+.minus{
+   color: rgba(233, 233, 233, 1);
+   
+}
+.number-input input::-webkit-outer-spin-button,
+.number-input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 992px){
+    .cart-item{
+        width: 70vw;
+    }
+    .cart-item img{
+        width: 40%;
+        height: auto;
+    }
+
+    .cart-description h2{
+        font-size: 1.5rem
+    }
+
+}
