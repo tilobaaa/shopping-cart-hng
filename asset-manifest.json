@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/shopping-cart-hng/static/css/main.7340a075.css",
+    "main.js": "/shopping-cart-hng/static/js/main.590c313a.js",
+    "static/js/453.59eb9ae1.chunk.js": "/shopping-cart-hng/static/js/453.59eb9ae1.chunk.js",
+    "static/media/productImg.png": "/shopping-cart-hng/static/media/productImg.6621654910fbd215e958.png",
+    "static/media/frontImg.png": "/shopping-cart-hng/static/media/frontImg.370f135f396e79b8051f.png",
+    "static/media/backimg.png": "/shopping-cart-hng/static/media/backimg.d276fbcbe82783c1c9fc.png",
+    "static/media/pray2.png": "/shopping-cart-hng/static/media/pray2.360c2ad1c8a3482967d8.png",
+    "static/media/homePNG.png": "/shopping-cart-hng/static/media/homePNG.74f73efe2e4ff753accc.png",
+    "static/media/hande.png": "/shopping-cart-hng/static/media/hande.e8bbd2ba119a3d3c9df0.png",
+    "static/media/vndaivb shop.png": "/shopping-cart-hng/static/media/vndaivb shop.ed1dbddfd54120966f89.png",
+    "static/media/pray3.png": "/shopping-cart-hng/static/media/pray3.4ed623834ae976b27723.png",
+    "static/media/shoeShop.png": "/shopping-cart-hng/static/media/shoeShop.290a90afd0eaacd77878.png",
+    "static/media/nescafe shop.png": "/shopping-cart-hng/static/media/nescafe shop.208d8fb6b1274a6ecc16.png",
+    "static/media/Rectangle 346 dhfi shop.png": "/shopping-cart-hng/static/media/Rectangle 346 dhfi shop.262d68a9f44089ddbe1c.png",
+    "static/media/Rectangle34 5 shop.png": "/shopping-cart-hng/static/media/Rectangle34 5 shop.c67b23038afbf603563b.png",
+    "static/media/bagShop.png": "/shopping-cart-hng/static/media/bagShop.bd83fe1620e579e018ab.png",
+    "static/media/shop shop.png": "/shopping-cart-hng/static/media/shop shop.daa1737e96eefc105325.png",
+    "static/media/Rectangle 346 shop.png": "/shopping-cart-hng/static/media/Rectangle 346 shop.8c94bff8152550ff8161.png",
+    "static/media/Rectangle 34 shop.png": "/shopping-cart-hng/static/media/Rectangle 34 shop.e1edabe28c6df99a160c.png",
+    "static/media/Rectangle shop.png": "/shopping-cart-hng/static/media/Rectangle shop.abef5b2e8c2991b905d9.png",
+    "static/media/Rectangle 3 shop.png": "/shopping-cart-hng/static/media/Rectangle 3 shop.dac74d3f49fd80d33c17.png",
+    "static/media/Rectangle 3462 shop.png": "/shopping-cart-hng/static/media/Rectangle 3462 shop.8e162a75378b77484525.png",
+    "static/media/shoe shop.png": "/shopping-cart-hng/static/media/shoe shop.47c43e89b52e95350201.png",
+    "static/media/Rec shop .png": "/shopping-cart-hng/static/media/Rec shop .1f478057d3e2f49e3215.png",
+    "static/media/cartpic.png": "/shopping-cart-hng/static/media/cartpic.c3484a3902b37d55ecb4.png",
+    "index.html": "/shopping-cart-hng/index.html",
+    "main.7340a075.css.map": "/shopping-cart-hng/static/css/main.7340a075.css.map",
+    "main.590c313a.js.map": "/shopping-cart-hng/static/js/main.590c313a.js.map",
+    "453.59eb9ae1.chunk.js.map": "/shopping-cart-hng/static/js/453.59eb9ae1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7340a075.css",
+    "static/js/main.590c313a.js"
+  ]
+}
