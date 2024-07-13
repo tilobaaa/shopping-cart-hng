@@ -5,10 +5,11 @@ import backImg from "./Images/backimg.png";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import classes from "./Home.module.css";
-import { FaArrowRight } from "react-icons/fa";
-import hande from './Images/hande.png'
-import pray2 from './Images/pray2.png'
-import pray3 from './Images/pray3.png'
+import hande from "./Images/hande.png";
+import pray2 from "./Images/pray2.png";
+import pray3 from "./Images/pray3.png";
+import arrowRight from './Images/Arrow - Right.png'
+import moreImg from './Images/arrow-circle-right.png'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -35,9 +36,14 @@ const Home = () => {
           <div className={classes.details}>
             <h1>DISCOVER THE LATEST TRENDS</h1>
             <p>Fresh styles for every season. Shop our most loved items</p>
-            <Link to="/products">
-              EXPLORE <FaArrowRight />
-            </Link>
+            <div className={classes.link}>
+              <Link to="/products">
+              <p>EXPLORE</p>
+              </Link>
+              <Link to='/products'>
+                <img src={arrowRight} alt="" />
+              </Link>
+            </div>
           </div>
           <div className={classes["image-div"]}>
             <img className={classes.back} src={backImg} alt="" />
@@ -59,12 +65,15 @@ const Home = () => {
               <img src={pray3} alt="" />
               <p>Footwears</p>
             </div>
+            <div className={classes.more}>
+              <img src={moreImg} alt="" />
+            </div>
           </div>
         </main>
         <div className={classes.footer}>
           <h4>Stay Updated</h4>
           <p>Get the Latest news and exclusive offers</p>
-          <div className={classes['input-div']}>
+          <div className={classes["input-div"]}>
             <input type="text" placeholder="Enter your email address" />
             <button>Subscribe</button>
           </div>

@@ -41,28 +41,32 @@ font-size: 1.2rem;
     font-size: 1.5rem;
     display: none;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 1rem;
+    right: 1rem;
+    height: 50%;
     background-color: white;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+
    
   }
 
   .icons div{
-    width: 20%;
-    padding: 1rem;
+    width: 40%;
+    padding: 0.5rem;
   }
 
-  .icons:hover{
-
+  .icons div:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.562);
   }
+
+
 
   .images:hover .icons {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+   align-items: center;
   }
 
 
@@ -74,5 +78,13 @@ font-size: 1.2rem;
 
     .stars{
         max-width: 30%;
+    }
+
+   
+}
+
+@media only screen and (min-width: 992px){
+    .icons{
+        height: 30%;
     }
 }

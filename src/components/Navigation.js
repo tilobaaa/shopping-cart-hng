@@ -22,7 +22,7 @@ const Navigation = () => {
       </div>
 
       <div className={classes.link}>
-        <a href="/">Shop</a>
+        <a href="/products">Shop</a>
         <a href="/">About Us</a>
         <a href="/">Blog</a>
         <a href="/">Contact Us</a>

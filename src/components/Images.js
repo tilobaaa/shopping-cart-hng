@@ -1,21 +1,29 @@
 import classes from "./Images.module.css";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
-import { FaHeart } from "react-icons/fa";
-import { CiShoppingCart } from "react-icons/ci";
-import { TfiSaveAlt } from "react-icons/tfi";
-import { useNavigate } from "react-router-dom";
-import likeImg from '../Images/heart.png';
-import cartImg from '../Images/clarity_shopping-cart-outline-badged.png'
-import archiveImg from '../Images/archive-add.png'
+// import { useNavigate } from "react-router-dom";
+import likeImg from "../Images/heart.png";
+import cartImg from "../Images/clarity_shopping-cart-outline-badged.png";
+import archiveImg from "../Images/archive-add.png";
+import CartContext from "../store/cart-context";
+import { useContext } from "react";
 
 const Images = (props) => {
+  const cartCtx = useContext(CartContext);
+  // const navigate = useNavigate();
 
-  const navigate = useNavigate();
+  // const navigateHandler = () => {
+  //   navigate("/cart");
+  // };
 
-  const navigateHandler=()=>{
-    navigate('/cart')
-  }
+  const addToCartHandler = () => {
+    cartCtx.addItem({
+      id: props.id,
+      name: props.name,
+      amount: 1,
+      price: props.price,
+    });
+  };
   return (
     <div className={classes.images}>
       <img src={props.src} alt="" />
@@ -37,8 +45,8 @@ const Images = (props) => {
           {" "}
           <img src={likeImg} alt="" />
         </div>
-        <div onClick={navigateHandler}>
-         <img src={cartImg} alt="" />
+        <div >
+          <img src={cartImg} alt="" onClick={addToCartHandler}/>
         </div>
         <div>
           {" "}

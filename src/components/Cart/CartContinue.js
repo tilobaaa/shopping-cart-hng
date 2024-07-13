@@ -7,8 +7,12 @@ import paypalImg from "../../Images/paypal.png";
 import paystackImg from "../../Images/paystack.png";
 import masterCardImg from "../../Images/mastercard.png";
 import visaImg from "../../Images/visa.png";
+import { useContext } from "react";
+import CartContext from "../../store/cart-context";
 
 const CartContinue = () => {
+  const cartCtx = useContext(CartContext);
+  const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
   const navigate = useNavigate();
 
   const navigateHandler = () => {
@@ -47,7 +51,7 @@ const CartContinue = () => {
             <hr />
             <div>
               <p>Total</p>
-              <p>$1080</p>
+              <p>{totalAmount}</p>
             </div>
             <hr />
             <button className={classes.button} onClick={navigateHandler}>Proceed to Checkout</button>

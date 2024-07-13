@@ -17,23 +17,22 @@ import image16 from '../Images/Rectangle shop.png'
 
 
 const images=[
-    {image: image1, title: 'Nike Track Suit', price: '$212'},
-    {image: image2, title: 'Nike Track Suit', price: '$212'},
-    {image: image3, title: 'Nike Track Suit', price: '$212'},
-    {image: image4, title: 'Nike Track Suit', price: '$212'},
-    {image: image5, title: 'Nike Track Suit', price: '$212'},
-    {image: image6, title: 'Nike Track Suit', price: '$212'},
-    {image: image7, title: 'Nike Track Suit', price: '$212'},
-    {image: image8, title: 'Nike Track Suit', price: '$212'},
-    {image: image9, title: 'Nike Track Suit', price: '$212'},
-    {image: image10, title: 'Nike Track Suit', price: '$212'},
-    {image: image11, title: 'Nike Track Suit', price: '$212'},
-    {image: image12, title: 'Nike Track Suit', price: '$212'},
-    {image: image13, title: 'Nike Track Suit', price: '$212'},
-    {image: image14, title: 'Nike Track Suit', price: '$212'},
-    {image: image15, title: 'Nike Track Suit', price: '$212'},
-    {image: image16, title: 'Nike Track Suit', price: '$212'},
-
+    {image: image1, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image2, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image3, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image4, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image5, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image6, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image7, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image8, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image9, title: 'Nike Track Suit', price: '212', id: 1},
+    {image: image10, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image11, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image12, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image13, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image14, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image15, title: 'Nike Track Suit', price: '212', id: 2},
+    {image: image16, title: 'Nike Track Suit', price: '212', id: 2},
 ]
 
 export default images
